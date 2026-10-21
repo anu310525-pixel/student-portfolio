@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AnuSri's portfolio — web development, frontend design and projects.">
+  <title>AnuSri | Web Developer & Frontend Designer</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">AnuSri<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Open navigation" aria-expanded="false"
+        aria-controls="nav-links">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Contact ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero section container" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+        <h1>Hi, I'm <span>AnuSri</span><br>
+          Web Developer &<br>Frontend Designer.
+        </h1>
+
+        <p class="hero-description">
+          I build responsive websites with clean code,
+          creative designs and user-friendly experiences.
+          I love turning ideas into reality through code.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work ↗
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Contact Me
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank"
+             rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="code-window">
+          <div class="window-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"AnuSri"</span>,
+  role: <span class="code-green">"Frontend Developer"</span>,
+  skills: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>
+  ],
+  creative: <span class="code-purple">true</span>,
+  learning: <span class="code-green">"Every day"</span>
+};
+
+<span class="code-purple">console</span>.log(
+  <span class="code-green">"Let's build something!"</span>
+);</code></pre>
+        </div>
+        <p class="card-caption">Turning creativity into code ✨</p>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section section-alt" id="about">
+      <div class="container reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+
+        <p class="section-description">
+          I'm an aspiring web developer and frontend designer
+          passionate about creating attractive and functional
+          websites. I enjoy learning new technologies,
+          solving problems and improving my design skills.
+          My goal is to create digital experiences that look
+          great and work smoothly on every screen.
+        </p>
+
+        <div class="stats">
+          <div class="stat-card">
+            <h3>01</h3>
+            <p>Creative Design</p>
+          </div>
+          <div class="stat-card">
+            <h3>02</h3>
+            <p>Clean Code</p>
+          </div>
+          <div class="stat-card">
+            <h3>03</h3>
+            <p>Continuous Learning</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section container" id="skills">
+      <div class="reveal">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>My <span>Skills</span></h2>
+        <p class="section-description">
+          Technologies I use to build modern web experiences.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML5</h3>
+          <p>Semantic structure and accessible web pages.</p>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS3</h3>
+          <p>Responsive layouts, animations and visual design.</p>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>Interactive features and dynamic web experiences.</p>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">📱</div>
+          <h3>Responsive Design</h3>
+          <p>Layouts that adapt to mobile, tablet and desktop.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="reveal">
+          <p class="eyebrow">MY RECENT WORK</p>
+          <h2>Featured <span>Projects</span></h2>
+          <p class="section-description">
+            A selection of projects I am building and exploring.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-visual visual-one">
+              <span>💰</span>
+              <p>PLAN SMARTER</p>
+            </div>
+            <div class="project-info">
+              <p class="project-type">01 / WEB APPLICATION</p>
+              <h3>Budget Planner</h3>
+              <p>
+                A personal finance planner to record income,
+                track expenses and understand spending.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="#contact" class="project-link">
+                Project details ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-two">
+              <span>🖥️</span>
+              <p>DESIGN MEETS CODE</p>
+            </div>
+            <div class="project-info">
+              <p class="project-type">02 / WEB DESIGN</p>
+              <h3>Creative Landing Page</h3>
+              <p>
+                A modern landing page with a clean layout,
+                responsive sections and clear calls to action.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>UI Design</span>
+              </div>
+              <a href="#contact" class="project-link">
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-three">
+              <span></span>
+              <p>MY DIGITAL SPACE</p>
+            </div>
+            <div class="project-info">
+              <p class="project-type">03 / PERSONAL WEBSITE</p>
+              <h3>Portfolio Website</h3>
+              <p>
+                A personal portfolio presenting my skills,
+                learning journey and web development projects.
+              </p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="#contact" class="project-link">
+              </a>
+            </div>
+          </article>
+        </div>
+        <p class="project-note">
+          Note: These are starter project entries. Replace them
+          with your real work as you complete each project.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section container" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have a project in <span>mind?</span></h2>
+        <p class="section-description">
+          I'm excited to keep learning, collaborate and create
+          meaningful web experiences. Feel free to reach out.
+        </p>
+
+        <!-- Replace this email with your real email address -->
+        <a class="btn btn-primary"
+           href="mailto:yourname@example.com">
+        </a>
+
+        <p class="contact-note">
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">AnuSri<span>.</span></a>
+      <p>Designed & built with HTML, CSS and JavaScript.</p>
+      <p><span id="year"></span> AnuSri</p>
+    </div>
+  </footer>
+</body>
+</html>
